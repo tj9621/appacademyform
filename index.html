@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/CSS" href="layout.css">
+    <title>Title for Form</title>
+</head>
+<body>
+    <form action="Add User" target="_blank" class="add_form">
+        <fieldset class="border">
+            <legend id="legend" >Add user</legend>
+            <label>First Name:</label><br>
+            <input type="text" id="firstName" name="firstName"><br>
+            <label>Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName"><br>
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+            <label for="status-select">Status</label>
+            <select id="status-select" name="status">
+                <option>Student</option>
+                <option>Instructor</option>
+                <option>Guest</option>
+            </select>
+            <labe>Current Date </labe><input type="date" id="currentdate"><br>
+            <p>Choose your favortie programming language</p>
+            <input type="radio" id="HTML" value="HTML" checked>
+            <label for="HTML">HTML</label>
+            <input type="radio" id="CSS" value="CSS">
+            <label for="CSS">CSS</label>
+            <input type="radio" id="JavaScript" value="JavaScript">
+            <label for="Javascript">JavaScript</label><br><br>
+            <textarea>Comments</textarea><br>
+            <input type="checkbox" id="Signup">
+            <label id="Signuptext" for="Signup">Sign up<for newsletter</label>
+            <input type="checkbox" id="Terms">
+            <label id="Termstext" for="Terms">Agree to terms and conditions</label>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+<footer></footer>
